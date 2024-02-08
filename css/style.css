@@ -1,0 +1,105 @@
+/* Reset CSS */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+	padding: 0;
+}
+
+/* Remove list styles */
+ul,
+ol {
+	list-style: none;
+}
+
+/* Remove default hyperlink styles */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Remove default button styles */
+button {
+	border: none;
+	background: none;
+	padding: 0;
+	cursor: pointer;
+}
+
+/* Remove default form styles */
+input,
+textarea,
+select,
+button {
+	outline: none;
+	font-family: inherit;
+}
+
+/* Remove default table styles */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Remove default media element styles */
+img,
+video {
+	display: block;
+	max-width: 100%;
+}
+
+/* Remove default form control styles */
+input[type='checkbox'],
+input[type='radio'] {
+	appearance: none;
+}
+
+/* Remove default file input styles */
+input[type='file'] {
+	appearance: none;
+	border: none;
+	background: none;
+	padding: 0;
+	cursor: pointer;
+}
+
+/* Remove default scrollbar styles */
+::-webkit-scrollbar {
+	width: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #888;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #f1f1f1;
+}
+
+/* Main Page CSS */
+
+body {
+	background-color: linen;
+}
